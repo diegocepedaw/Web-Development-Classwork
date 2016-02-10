@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/css" href="diegoCepedaLab2p4.css"?>
+
+<CATALOG xmlns="http://www.w3.org/1999/xhtml">
+
+
+	<SONG>
+		<TITLE>Blue Orchid</TITLE>
+		<ARTIST>White Stripes</ARTIST>
+		<ALBUM>Get Behind Me Satan</ALBUM>
+		<RELEASE>2005</RELEASE>
+		<GENRE>Garage Rock</GENRE>
+		<WEBSITE><a href="http://www.whitestripes.com">www.whitestripes.com</a></WEBSITE>
+		<COVER><img src="http://d3mjk82f332v2.cloudfront.net/assets/NewsPhotos/GBMSlenticular2.gif" /> </COVER>
+	</SONG>
+
+	<hr></hr>
+
+	<SONG>
+		<TITLE>Hello Operator</TITLE>
+		<ARTIST>White Stripes</ARTIST>
+		<ALBUM>De Stijl</ALBUM>
+		<RELEASE>2000</RELEASE>
+		<GENRE>Garage Rock</GENRE>
+		<WEBSITE><a href="http://www.whitestripes.com">www.whitestripes.com</a></WEBSITE>
+		<COVER><img src="http://images.rapgenius.com/379b1eff320adfb02f964ac0c8f7ad88.500x500x1.jpg" /></COVER>
+	</SONG>
+
+	<hr></hr>
+
+	<SONG>
+		<TITLE>Icky Thump</TITLE>
+		<ARTIST>White Stripes</ARTIST>
+		<ALBUM>Icky Thump</ALBUM>
+		<RELEASE>2007</RELEASE>
+		<GENRE>Garage Rock</GENRE>
+		<WEBSITE><a href="http://www.whitestripes.com">www.whitestripes.com</a></WEBSITE>
+		<COVER><img src="http://ecx.images-amazon.com/images/I/61Fuvh7ULcL.jpg" /> </COVER>
+	</SONG>
+
+	<hr></hr>
+
+	<SONG>
+		<TITLE> Fell in Love With a Girl</TITLE>
+		<ARTIST>White Stripes</ARTIST>
+		<ALBUM>White Blood Cells</ALBUM>
+		<RELEASE>2001</RELEASE>
+		<GENRE>Garage Rock</GENRE>
+		<WEBSITE><a href="http://www.whitestripes.com">www.whitestripes.com</a></WEBSITE>
+		<COVER><img src="https://upload.wikimedia.org/wikipedia/en/1/12/The_White_Stripes_-_White_Blood_Cells.jpg" /> </COVER>
+	</SONG>
+
+	<hr></hr>
+
+</CATALOG>

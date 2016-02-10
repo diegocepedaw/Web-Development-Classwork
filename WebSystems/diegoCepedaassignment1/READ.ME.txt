@@ -1,0 +1,1 @@
+Used the vcard microformat to add semantic meaning and searchability. Use of strong tags and dd dt tags create a readable yet rich format.

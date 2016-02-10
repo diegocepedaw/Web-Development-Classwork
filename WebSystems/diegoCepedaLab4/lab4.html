@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+     <title>Lab 4 AJAX</title>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	 <script>
+		
+		$(document).ready(function () {
+			$.getJSON("playlist.json",
+			function (json) {
+				var tr;
+				for (var i = 0; i < json.length; i++) {
+					tr = $('<tr/>');
+					tr.append("<td>" + json[i].title + "</td>");
+					tr.append("<td>" + json[i].artist + "</td>");
+					tr.append("<td>" + json[i].album + "</td>");
+					tr.append("<td>" + json[i].release + "</td>");
+					tr.append("<td>" + json[i].genre + "</td>");
+					tr.append("<td><a href='" + json[i].website + "'</a></td>");
+					tr.append("<td><img src='" + json[i].cover + "'></td>");
+					$('table').append(tr);
+				}
+			});
+		});
+		
+	 </script>
+  </head>
+  <body>
+    <a id="site" href="#"><img id="coverart" src="noalbum.png" /></a>
+    <table id="playlist">
+			<tr>
+				<td><h2>Song</h2></td>
+				<td><h2>Artist</h2> </td>
+				<td><h2>Album</h2></td>
+				<td><h2>Release Date</h2></td>
+				<td><h2>Genre</h2></td>
+				<td><h2>Website</h2></td>
+				<td><h2>Cover</h2></td>
+				
+			</tr>
+			
+			
+		</table>
+  </body>
+</html>

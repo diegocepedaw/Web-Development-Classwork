@@ -1,0 +1,43 @@
+CATALOG
+{
+background-color: #ffffff;
+width: 100%;
+}
+SONG
+{
+display: block;
+margin-bottom: 30pt;
+margin-left: 0;
+
+
+}
+TITLE
+{
+display: block;
+color: green;
+font-size: 120%;
+}
+ARTIST
+{
+color: #0000FF;
+font-size: 140%;
+
+}
+
+ALBUM
+{
+display: block;
+color: #000000;
+font-style: italic;
+}
+
+GENRE,WEBSITE,RELEASE, COVER
+{
+display: block;
+color: #000000;
+}
+
+img {
+	height: 150px;
+	width 150px;
+}

@@ -1,0 +1,65 @@
+{
+    "files": [
+        {
+            "filename": "lab_1",
+            "category": "labs",
+            "location": "files/lab1.html",
+			"solution": "files/lab1.zip"
+        },
+		{
+            "filename": "lab_2",
+            "category": "labs",
+            "location": "files/lab2.html",
+			"solution": "files/lab2.zip"
+        },
+		{
+            "filename": "lab_3",
+            "category": "labs",
+            "location": "files/lab3.html",
+			"solution": "files/lab3.zip"
+        },
+		{
+            "filename": "lab_4",
+            "category": "labs",
+            "location": "files/nohtml.html",
+			"solution": "files/lab4.zip"
+        },
+		{
+            "filename": "lab_6",
+            "category": "labs",
+            "location": "files/nohtml.html",
+			"solution": "files/lab6.zip"
+        },
+		{
+            "filename": "homework_1",
+            "category": "homework",
+            "location": "files/nohtml.html",
+			"solution": "files/homework1.zip"
+        },
+		{
+            "filename": "homework_2",
+            "category": "homework",
+            "location": "files/homework2.png",
+			"solution": "files/homework2.zip"
+        },
+		{
+            "filename": "quiz_1",
+            "category": "quiz",
+            "location": "files/quiz1.html",
+			"solution": "files/quiz1.zip"
+        },
+		{
+            "filename": "lecture_1",
+            "category": "lecture",
+            "location": "files/nohtml.html",
+			"solution": "files/lecture1.pptx"
+        },
+		{
+            "filename": "lecture_2",
+            "filename": "lecture_2",
+            "category": "lecture",
+            "location": "files/nohtml.html",
+			"solution": "files/lecture2.pptx"
+        }
+    ]
+}

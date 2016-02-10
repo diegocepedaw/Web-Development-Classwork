@@ -1,0 +1,2 @@
+For the jquery UI elemencided to use a dropdown menu as I thought it would look the most aesthetically pleasing.
+The css for the drop down menu was inspired by a very similar open source menu done by <rtd/>. Other than that the project is pretty straight forward and to the letter. 

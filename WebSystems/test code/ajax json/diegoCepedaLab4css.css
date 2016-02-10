@@ -1,0 +1,31 @@
+
+table {
+	width: 100%;
+	border: 1px solid black;
+}
+
+img {
+	height: 100px;
+	width 100px;
+
+}
+
+td, tr {
+	text-align: center;
+}
+
+p, h2 {
+	text-align: center;
+}
+
+#fav {
+	color: green;
+}
+
+.smallText {
+	font-size: 80%;
+}
+
+#endOfList {
+	font-size: 60%;
+}

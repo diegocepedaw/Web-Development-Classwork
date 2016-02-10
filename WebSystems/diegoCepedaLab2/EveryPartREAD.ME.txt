@@ -1,0 +1,21 @@
+PART 1 and 3
+
+For these parts of the lab I chose to organize my html document using tables. 
+Although usually using tables is not the best of ideas, the nature of the information 
+I was trying to mark up (a table of somgs, artists, albums, etc.) meant that tables were
+actually a logical choice. To create semantic meanining I used header tags for the headers in 
+the table giving the highest hierchical importance to the elements that outline what the content of 
+the table is. Bold and italics tags also help to give importance to some table elements like 
+the artist and album. 
+
+Part 2
+
+I chose to structure my xml markup in a playlist that contains songs, then, to those songs I assign 
+all the relevant information (title, artist, album, release, genre, website, and cover).The reasonng 
+behind this organisation. This organization also lends itself to be easily marked up in either
+a tabular format or a list like the one in part 4.
+
+Part 4
+
+Basically same structure as part two but marked up and with the additiof some html tagsto incorporate
+horizontal lines and images.

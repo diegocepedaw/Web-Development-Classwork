@@ -1,0 +1,66 @@
+/*I have included the css here for convenience only*/
+
+body {
+  font-family: helvetica;
+  width: 900px;
+}
+
+.mainBlock {
+  width: 700px;
+  background-color: #fee;
+  padding: 30px;
+  float: right;
+  clear: both;
+  overflow: hidden;
+}
+
+.sectionheader {
+  margin: .5em;
+}
+
+.sectiondetail {
+  line-height: 120%;
+  list-style-type: none;
+}
+
+.subsectiondetail li {
+  list-style: disc;
+}
+
+ul.rubricsubsections {
+  list-style-type: none;
+}
+
+.rubricsectiondetail {
+  line-height: 110%;
+  list-style-type: none;
+}
+
+/*.rubricsubsectiondetail li {
+  list-style: none;
+}*/
+strong {
+  font-size: 105%;
+}
+
+em {
+  color: green;
+}
+
+table {
+  display: inline-table;
+}
+
+.rubcat {
+  -webkit-column-width: 180px;
+  -moz-column-width: 180px;
+  -ms-column-width: 180px,;
+  column-width: 180px;
+}
+
+.rubpts {
+  -webkit-column-width: 40px;
+  -moz-column-width: 40px;
+  -ms-column-width: 40px,;
+  column-width: 40px;
+}

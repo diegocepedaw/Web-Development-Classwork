@@ -1,0 +1,2 @@
+Diego Cepeda
+All functionality is implemented through javascript. Comments in the code detail intricacies.

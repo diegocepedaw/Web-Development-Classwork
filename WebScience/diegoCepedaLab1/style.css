@@ -1,0 +1,31 @@
+
+
+.twitterHandle, .twitterAvatar, .tweetText{
+	margin: 10px;
+}
+
+.profileAvatar {
+	height: 150px;
+	width: 150px;
+	display: block;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.profile{
+	margin-top: 80px;
+	margin-bottom: 200px;
+	padding: 0px;
+
+}
+
+#tweetSpace, #profileSpace{
+	margin: 50px auto; 
+	position: relative; 
+	height: 750px; 
+	padding: 10px; 
+	box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+	overflow: hidden;
+}

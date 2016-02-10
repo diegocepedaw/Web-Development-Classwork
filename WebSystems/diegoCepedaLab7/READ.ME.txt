@@ -1,0 +1,9 @@
+When the buttons are pressed the php checks that op is set, if it is it will call get equation and depending what the is set that checks what button it is it will create an object
+that has the corresponding operations to the button. then it echoes the return value of that function.
+
+Generally speaking a POST reuest is safer since it isn't cached, bookmarked or added to the browser history. Of course 
+it might be the case that you want it to be cached etc. in which case you would use a get. However, even if you don't care about security or want the ability to cache
+POST can still be more appropriate for laarge requests since it has no limit on data length.
+
+In basically every case the standard and reccomended way of checking is doing the isset on the specific name although there are some 
+workarounds that could be used.

@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+     <title>Lab 4 AJAX</title>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	 <script>
+		
+		$(document).ready(function () {
+			$.getJSON("http://lab1.websys/playlist.js",
+			function (json) {
+				var tr;
+				for (var i = 0; i < json.length; i++) {
+					tr = $('<tr/>');
+					tr.append("<td>" + json[i].title + "</td>");
+					tr.append("<td>" + json[i].artist + "</td>");
+					tr.append("<td>" + json[i].album + "</td>");
+					$('table').append(tr);
+				}
+			});
+		});
+				
+	 </script>
+  </head>
+  <body>
+    
+    <table id="playlist"></table>
+  </body>
+</html>
