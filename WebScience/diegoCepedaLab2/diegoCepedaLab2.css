@@ -1,0 +1,100 @@
+@CHARSET "ISO-8859-1";
+
+html {
+    background:-webkit-radial-gradient(circle, #73b9e6 0%, #9ad2ff 100%);
+    height:100%;
+    width:100%;
+}
+
+
+#centerDiv {
+    width: 400px;
+    height: 400px;
+
+	text-align:center;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+ #currDiv {
+    position: absolute;
+    bottom: 0;
+	text-align:center;
+	left: 0;
+    right: 0;
+
+  }
+  
+#ticker {
+	
+	top:0;
+    bottom: 0;
+	height: 580px;
+	overflow: hidden;
+	list-style-type: none;
+	width: 150px;
+	margin-left:auto; margin-right:50px;
+	background-color: white;
+	padding-left:5px;
+	padding-right:5px;
+	
+
+}
+#ticker li {
+	height: 180px;
+	margin-left:0;
+	margin-right:0;
+
+}
+
+
+  /* Thermometer column and text */
+ .thermometer {
+    margin:50% 0 0 50%;
+    left:-15px;
+    top:-100px;
+    width:22px;
+    height:150px;
+    display:block;
+    font:bold 14px/152px helvetica, arial, sans-serif;
+    text-indent: 36px;
+  
+    border-radius:22px 22px 0 0;
+    border:5px solid #4a1c03;
+    border-bottom:none;
+    position:absolute;
+    box-shadow:inset 0 0 0 4px #fff;
+    color:#4a1c03;
+}
+/* Thermometer Bulb */
+ .thermometer:before {
+    content:' ';
+    width:44px;
+    height:44px;
+    display:block;
+    position:absolute;
+    top:142px;
+    left:-16px;
+    z-index:-1;
+    /* Place the bulb under the column */
+    background:#db3f02;
+    border-radius:44px;
+    border:5px solid #4a1c03;
+    box-shadow:inset 0 0 0 4px #fff;
+}
+/* This piece here connects the column with the bulb */
+ .thermometer:after {
+    content:' ';
+    width:14px;
+    height:7px;
+    display:block;
+    position:absolute;
+    top:146px;
+    left:4px;
+    background:#db3f02;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	
+	<link rel="stylesheet" href="diegoCepedaLab2.css">
+	<script src="diegoCepedaLab2.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<style>
+
+
+	</style>
+
+
+	<body  onload="getLocation()">
+
+	
+	
+		<div id="marqueecontainer" onMouseover="copyspeed=pausespeed" onMouseout="copyspeed=marqueespeed">
+		<div id="vmarquee" style="position: absolute; width: 98%;">
+	
+	<div id="centerDiv">
+	
+	<span class="thermometer" id="thermo"></span>
+	<div id="currDiv"></div></div>
+	<ul id="ticker" >
+	
+			<li><hr>Day 1<div id="day1div"></div></li>
+
+			<li><hr>Day 2<div id="day2div"></div></li>
+
+			<li><hr>Day 3<div id="day3div"></div></li>
+
+			<li><hr>Day 4<div id="day4div"></div></li>
+	
+			<li><hr>Day 5<div id="day5div"></div></li>
+	
+	</ul>
+		</div>
+		</div>
+		
+
+		<!--9a9f08806342101a9c49d3efcd419e99 api key-->
+
+	</body>
+	
+	<script>
+	function tick2(){
+			$('#ticker :first').slideUp( function () { $(this).appendTo($('#ticker')).slideDown(); });
+		}
+		setInterval(function(){ tick2 () }, 5000);
+
+
+	</script>
+</html>
